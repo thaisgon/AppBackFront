@@ -18,6 +18,7 @@
 		345E1C92293DF28B00C36B5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 345E1C91293DF28B00C36B5B /* GoogleService-Info.plist */; };
 		345E1C95293DF35500C36B5B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 345E1C94293DF35500C36B5B /* FirebaseAuth */; };
 		345E1C97293DF35500C36B5B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 345E1C96293DF35500C36B5B /* FirebaseCrashlytics */; };
+		34B7CC8429507F33004D9557 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B7CC8329507F33004D9557 /* AlertController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		343B9DAA28D3A07E00956373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		343B9DB028D3A48A00956373 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		345E1C91293DF28B00C36B5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		34B7CC8329507F33004D9557 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		343B9D9B28D3A07C00956373 /* AppBackFront */ = {
 			isa = PBXGroup;
 			children = (
+				34B7CC8229507F1A004D9557 /* Alert */,
 				341CF719293DFD5A001A230A /* Utils */,
 				345E1C8F293DF01500C36B5B /* Login */,
 				343B9D9C28D3A07C00956373 /* AppDelegate.swift */,
@@ -110,6 +113,14 @@
 				343B9DB028D3A48A00956373 /* LoginScreen.swift */,
 			);
 			path = Screen;
+			sourceTree = "<group>";
+		};
+		34B7CC8229507F1A004D9557 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				34B7CC8329507F33004D9557 /* AlertController.swift */,
+			);
+			path = Alert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 				343B9DB128D3A48A00956373 /* LoginScreen.swift in Sources */,
 				343B9D9D28D3A07C00956373 /* AppDelegate.swift in Sources */,
 				341CF71C293DFDAC001A230A /* UIViewController+Extension.swift in Sources */,
+				34B7CC8429507F33004D9557 /* AlertController.swift in Sources */,
 				341CF71E293E06AA001A230A /* String+Extension.swift in Sources */,
 				343B9D9F28D3A07C00956373 /* SceneDelegate.swift in Sources */,
 			);
